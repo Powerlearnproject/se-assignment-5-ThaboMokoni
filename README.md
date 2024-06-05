@@ -26,8 +26,6 @@ To download and install Visual Studio Code on Windows 11, follow these steps:
 5. **Post-Installation Steps**: After installation, you can start Visual Studio Code by searching for it in the Start menu or by opening it from the command line using `code.` in the directory you want to open. Remember, if you installed Visual Studio Code using the zip archive, you won't have automatic updates, so you'll need to manually check for and apply updates [2].
 
 6. **Troubleshooting**: If you encounter issues with the installer, consider trying the zip file installation instead. Additionally, ensure you have the necessary permissions (administrator rights) if you're installing Visual Studio Code on a system-wide basis [2][3].
-
-By following these steps, you should be able to successfully download and install Visual Studio Code on your Windows 11 system.
 Citations:
 [1] https://code.visualstudio.com/docs/supporting/requirements
 [2] https://code.visualstudio.com/docs/setup/windows
@@ -137,6 +135,41 @@ Citations:
 [6] https://medium.com/@chhaymenghong/a-deep-dive-into-vscode-tasks-improve-your-developer-workflow-today-8a75e40e0f0a
 5. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+     Extensions play a crucial role in extending the functionality of Visual Studio Code (VS Code), allowing users to add languages, debuggers, and tools that support their development workflow. Here's how users can find, install, and manage extensions, along with examples of essential extensions for web development:
+
+### Finding and Installing Extensions
+
+- **Browsing Extensions**: To find extensions, bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code or by using the `Ctrl+Shift+X` shortcut (or `Cmd+Shift+X` on macOS). This will display a list of popular extensions from the VS Code Marketplace, including a brief description, publisher, download count, and ratings [1].
+
+- **Installing Extensions**: To install an extension, simply click on the install button next to the extension you're interested in. VS Code will handle the rest, downloading and installing the extension for you [1].
+
+### Managing Extensions
+
+- **Disabling, Updating, and Uninstalling**: VS Code makes it easy to manage your extensions. You can disable, update, or uninstall extensions through the Extensions view, the Command Palette (with commands prefixed by "Extensions:"), or command-line switches. To manage an extension, right-click on it in the Extensions view and select the desired action [1].
+
+### Configuring Extensions
+
+- **Understanding Extension Configurations**: Extensions may have different configurations and requirements. Some contribute settings to VS Code, which can be modified in the Settings editor. Others may have their own configuration files or require additional components like compilers, debuggers, and command-line tools. Always consult the extension's README or visit its page on the VS Code Marketplace for detailed instructions [1].
+
+### Essential Extensions for Web Development
+
+- **Live Server**: Automatically refreshes your webpage whenever you save a file, making it easier to preview your web pages during development.
+- **Prettier**: A code formatter that enforces a consistent style by parsing your code and re-printing it with its own rules.
+- **ESLint**: Integrates ESLint into VS Code, enabling linting of JavaScript and TypeScript code to catch errors and enforce coding standards.
+- **GitLens**: Supercharges the Git capabilities built into VS Code, helping you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+- **Debugger for Chrome**: Allows you to debug your JavaScript code in Google Chrome directly from VS Code.
+- **Live Server Teams**: An extension for Live Server that enables live collaboration among team members.
+Citations:
+[1] https://code.visualstudio.com/docs/editor/extension-marketplace
+[2] https://learn.microsoft.com/en-us/visualstudio/ide/finding-and-using-visual-studio-extensions?view=vs-2022
+[3] https://stackoverflow.com/questions/35929746/automatically-install-extensions-in-vs-code
+[4] https://code.visualstudio.com/api/extension-guides/web-extensions
+[5] https://www.syncfusion.com/blogs/post/best-vs-code-extensions-web
+[6] https://x-team.com/blog/best-vscode-extensions/
+[7] https://www.smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/
+[8] https://medium.com/@gautammanak1/10-must-have-vscode-extensions-for-web-development-44b0d129ae56
+[9] https://sprkl.dev/top-vs-code-extensions-for-developers/
+[10] https://github.com/microsoft/vscode-extension-samples
 
 6. Integrated Terminal:
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
